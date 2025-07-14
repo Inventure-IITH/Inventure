@@ -72,7 +72,7 @@ html{
     color: gray;   
 }
 .bghome{
-    background: rgba(0,0,0,0.5)url('../Images/background.jpg');
+    background: rgba(0,0,0,0.6)url('../Images/background.jpg');
     background-blend-mode: darken;
     background-size: cover;
     background-repeat: no-repeat;
