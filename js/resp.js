@@ -11,6 +11,8 @@ burger.addEventListener('click', (event) => {
 });
 
 // Close mobile menu when clicking outside
+// Only close if menu is open and click is outside navbar
+// Do not toggle open/close on every click
 document.addEventListener('click', function(event) {
     if (navList.classList.contains('v-class-resp')) {
         if (!navbar.contains(event.target)) {
