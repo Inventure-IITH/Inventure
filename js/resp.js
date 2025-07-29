@@ -5,20 +5,16 @@ const navList = document.querySelector('.nav-list');
 
 // Toggle mobile menu when burger is clicked
 burger.addEventListener('click', (event) => {
-    event.stopPropagation(); // Prevent event bubbling
+    event.stopPropagation();
     navList.classList.toggle('v-class-resp');
     navbar.classList.toggle('h-nav-resp');
 });
 
 // Close mobile menu when clicking outside
-// Only close if menu is open and click is outside navbar
-// Do not toggle open/close on every click
 document.addEventListener('click', function(event) {
-    if (navList.classList.contains('v-class-resp')) {
-        if (!navbar.contains(event.target)) {
-            navList.classList.remove('v-class-resp');
-            navbar.classList.remove('h-nav-resp');
-        }
+    if (navList.classList.contains('v-class-resp') && !navbar.contains(event.target)) {
+        navList.classList.remove('v-class-resp');
+        navbar.classList.remove('h-nav-resp');
     }
 });
 
