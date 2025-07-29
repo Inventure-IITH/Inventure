@@ -595,7 +595,7 @@ html{
     .nav-list {
         flex-direction: column;
         width: 100%;
-        padding: 30px 0;
+        padding: 0px 0;
     }
     .nav-list li {
         padding: 12px 20px;
