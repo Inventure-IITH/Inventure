@@ -79,7 +79,7 @@ html{
     background-blend-mode: darken;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    /* background-position: center; */
 }
 .firstSection{
     height: 100vh;
@@ -234,7 +234,7 @@ html{
     background-blend-mode: darken;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    /* background-position: center; */
 }
 .about-section {
     padding: 60px 10%;
@@ -374,7 +374,7 @@ html{
     background-blend-mode: darken;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    /* background-position: center; */
 }
 .about-video iframe {
     border-radius: 12px;
@@ -443,7 +443,7 @@ html{
   background-blend-mode: darken;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  /* background-position: center; */
 }
 .contact-section {
   max-width: 700px;
@@ -489,7 +489,7 @@ html{
   background-blend-mode: darken;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  /* background-position: center; */
 }
 .contact-intro {
   font-size: 1.2rem;
